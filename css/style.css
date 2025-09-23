@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('your-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.floating-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  margin-left: 1.5em;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+main {
+  padding: 4em 2em;
+  text-align: center;
+  backdrop-filter: blur(4px);
+}
+
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 0.9em;
+}
